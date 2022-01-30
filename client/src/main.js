@@ -4,10 +4,17 @@ import VueRouter from 'vue-router'
 import './index.css'
 import Home from './components/Home.vue'
 import { FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
-library.add(faInstagram,faLinkedinIn)
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faInstagram,faLinkedinIn,faHouse,faUser,faBriefcase,faFile,faEnvelope)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
