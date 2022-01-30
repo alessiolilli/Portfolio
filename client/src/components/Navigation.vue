@@ -1,14 +1,14 @@
 <template>
-    <div class="flex flex-col h-full bg-side text-white">
-        <div class="flex m-4 justify-center">
-            <div class="flex flex-col h-auto w-28">
+    <div class="flex flex-row xl:flex-col xl:h-full bg-side text-white">
+        <div class="flex flex-col xl:flex-row m-4 justify-center">
+            <div class="flex flex-col h-auto w-16 xl:w-28">
                 <div class="flex">
-                    <img src="../assets/piccola.jpg" class="rounded-full border-8 border-gray-600" alt="">
+                    <img src="../assets/piccola.jpg" class="rounded-full xl:border-8 border-4 border-gray-600" alt="">
                 </div>
-                <div class="flex justify-center mt-4 text-xl font-bold">
+                <div class="hidden xl:flex xl:justify-center xl:mt-4 xl:text-xl xl:font-bold">
                     Alessio Lilli
                 </div>
-                <div class="flex justify-around mt-2">
+                <div class="hidden xl:flex xl:justify-around xl:mt-2">
                     <div class="flex flex-col border-white border-2 rounded-full p-2 bg-gray-700 cursor-pointer"  @click="goTo('https://www.instagram.com/alessiolilli/')">
                         <font-awesome-icon icon="fa-brands fa-instagram"/>
                     </div>
@@ -18,25 +18,25 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col justify-around h-1/3 ml-16 w-1/2">
-            <div class="" >
-                <font-awesome-icon icon="fa-solid fa-house" class="mr-3"/>
+        <div class="flex w-full justify-around xl:flex-col xl:justify-around xl:h-1/3 xl:ml-14 xl:w-1/2">
+            <div class="flex flex-col justify-center xl:flex-row" >
+                <font-awesome-icon icon="fa-solid fa-house" class="xl:mr-3"/>
                 Home
             </div>
-            <div class="">
-                <font-awesome-icon icon="fa-solid fa-user" class="mr-3"/>
+            <div class="flex flex-col justify-center xl:flex-row">
+                <font-awesome-icon icon="fa-solid fa-user" class="xl:mr-3"/>
                 About
             </div>
-            <div class="">
-                <font-awesome-icon icon="fa-solid fa-briefcase" class="mr-3"/>
+            <div class="flex flex-col justify-center xl:flex-row">
+                <font-awesome-icon icon="fa-solid fa-briefcase" class="xl:mr-3"/>
                 Skill
             </div>
-            <div class="">
-                <font-awesome-icon icon="fa-solid fa-file" class="mr-3"/>
+            <div class="flex flex-col justify-center xl:flex-row">
+                <font-awesome-icon icon="fa-solid fa-file" class="xl:mr-3"/>
                 Resume
             </div>
-            <div class="">
-                <font-awesome-icon icon="fa-solid fa-envelope" class="mr-3"/>
+            <div class="flex flex-col justify-center xl:flex-row">
+                <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-3"/>
                 Contact
             </div>
         </div>
