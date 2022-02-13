@@ -13,8 +13,9 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faInstagram,faLinkedinIn,faHouse,faUser,faBriefcase,faFile,faEnvelope)
+library.add(faAngleRight,faInstagram,faLinkedinIn,faHouse,faUser,faBriefcase,faFile,faEnvelope)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false

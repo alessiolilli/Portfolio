@@ -3,7 +3,7 @@
     <div class="flex flex-col xl:h-full xl:sticky xl:top-0 xl:w-56 xl:flex xl:flex-col">
       <Navigation></Navigation>
     </div>
-    <div class="flex flex-col xl:flex xl:flex-row">
+    <div class="flex flex-col xl:flex xl:flex-row xl:flex-grow overflow-auto h-full w-full">
       <router-view></router-view>
     </div>
   </div>
@@ -19,3 +19,8 @@ export default {
   }
 }
 </script>
+<style>
+.prova{
+  color: blue !important;
+}
+</style>
