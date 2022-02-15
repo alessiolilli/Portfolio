@@ -3,9 +3,9 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import './index.css'
 import Home from './components/Home.vue'
+
 import { FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'

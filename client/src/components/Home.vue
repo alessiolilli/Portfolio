@@ -55,7 +55,7 @@
                     <div class="grid xl:grid-cols-2 xl:gap-x-9 gap-y-5 mr-10">
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">VUE</span>
+                                <span class="text-sm font-medium dark:text-white">VUE</span>
                                 <span class="text-sm font-medium dark:text-white">70%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">ANGULAR</span>
+                                <span class="text-sm font-medium dark:text-white">ANGULAR</span>
                                 <span class="text-sm font-medium dark:text-white">65%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -73,7 +73,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium  dark:text-white">LARAVEL</span>
+                                <span class="text-smfont-medium  dark:text-white">LARAVEL</span>
                                 <span class="text-sm font-medium  dark:text-white">60%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -82,7 +82,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">MYSQL</span>
+                                <span class="text-sm font-medium dark:text-white">MYSQL</span>
                                 <span class="text-sm font-medium dark:text-white">65%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -91,7 +91,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">CSS</span>
+                                <span class="text-sm font-medium dark:text-white">CSS</span>
                                 <span class="text-sm font-medium dark:text-white">65%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -100,7 +100,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">PYTHON</span>
+                                <span class="text-sm font-medium dark:text-white">PYTHON</span>
                                 <span class="text-sm font-medium dark:text-white">55%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -109,7 +109,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">TAILWIND</span>
+                                <span class="text-sm font-medium dark:text-white">TAILWIND</span>
                                 <span class="text-sm font-medium dark:text-white">65%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
-                                <span class="text-base font-medium dark:text-white">JAVA</span>
+                                <span class="text-sm font-medium dark:text-white">JAVA</span>
                                 <span class="text-sm font-medium dark:text-white">45%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
@@ -127,10 +127,37 @@
                         </div>
                    </div>
                 </div>
-                  <div class="flex flex-col bg-white pl-4 pt-4">
-                    <div class="flex mb-4 text-3xl"> <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll</div>
-                    <div class="grid xl:grid-cols-2 xl:gap-x-9 gap-y-5 mr-10">
-                   </div>
+                <div class="flex flex-col bg-white pl-4 pt-4">
+                    <div class="">
+                        <div class="resume">
+                            <div class="mb-5">
+                                <div class="text-3xl"> <span class="border-b-4 border-blue-900 pb-2">Res</span>ume</div>
+                            </div>
+                            <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
+                                <div class="resume-item pb-0">
+                                    <div class="text-2xl">Alessio Lilli</div>
+                                    <p><em>Web Developer and Back-End Developer</em></p>
+                                    <ul>
+                                        <li>Via Carlo Alberto Diano, 8, 35125 Padova PD</li>
+                                        <li>+39 324 628 6156</li>
+                                        <li>lillialessio@libero.it</li>
+                                    </ul>
+                                </div>
+                                <div class="resume-item">
+                                    <div class="text-2xl">ITS Digital Transformation Specialist</div>
+                                    <h5>2020 - present </h5>
+                                    <div><em>ITS last, Verona, VR</em></div>
+                                    <div>It is a two-year post-diploma specialization course in the field of information technology and new technologies. The topics covered range from website design, web programming (back-end and front-end), data analysis to IOT and Cyber Security</div>
+                                </div>
+                                <div class="resume-item">
+                                    <h4> Administration, finance and marketing</h4>
+                                    <h5>2013 - 2019</h5>
+                                    <p><em>ITSCT Einaudi Gramsci, Padua, PD</em></p>
+                                    <p>Economic school with technical computer science</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
        </div>
