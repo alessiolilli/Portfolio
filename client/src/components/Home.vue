@@ -38,13 +38,6 @@
                             <div class="flex flex-col justify-center">
                                 <font-awesome-icon icon="fa-solid fa-angle-right" class="mr-3 prova"/>
                             </div>
-                            <div class="flex flex-col">Age:</div>
-                            <div class="flex flex-col ml-2">22</div>
-                        </div>
-                        <div class="flex">
-                            <div class="flex flex-col justify-center">
-                                <font-awesome-icon icon="fa-solid fa-angle-right" class="mr-3 prova"/>
-                            </div>
                             <div class="flex flex-col">Email:</div>
                             <div class="flex flex-col ml-2">lillialessio@libero.it</div>
                         </div>
