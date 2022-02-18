@@ -151,25 +151,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col xl:hidden bg-gray-300">
+                   
+                </div>
+                <div class="flex flex-col xl:hidden bg-gray-300">
+                    <div class="flex justify-center">
+                        <div class="flex flex-col">
+                            <div class="flex">Instagram</div>
+                        </div>
+                        <div class="flex flex-col ml-3 justify-center">
+                            <font-awesome-icon icon="fa-brands fa-instagram"/>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex flex-col">
+                            <div class="flex">Linkedin</div>
+                        </div>
+                        <div class="flex flex-col ml-3 justify-center">
+                            <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+                        </div>
+                    </div>
                         <div class="flex justify-center">
-                            <div class="flex flex-col">
-                                <div class="flex">Instagram</div>
-                            </div>
-                            <div class="flex flex-col ml-3 justify-center">
-                                <font-awesome-icon icon="fa-brands fa-instagram"/>
-                            </div>
-                        </div>
-                        <div class="flex justify-center">
-                            <div class="flex flex-col">
-                                <div class="flex">Linkedin</div>
-                            </div>
-                            <div class="flex flex-col ml-3 justify-center">
-                                <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                            </div>
-                        </div>
-                         <div class="flex justify-center">
-                        </div>
                     </div>
                 </div>
             </div>
