@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col w-full">
+    <div class="flex flex-col">
         <div class="flex">
-            <div class="flex flex-col h-full w-full">
+            <div class="flex flex-col ">
                 <div class="flex flex-col bg-white pl-4">
                     <div class="flex mb-4 text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut</div>
                     <div class="flex mb-3 text-xl">Front-end and Back-End Developer</div>
