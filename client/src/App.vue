@@ -23,7 +23,7 @@ export default {
 .prova{
   color: blue !important;
 }
---------------------------------------------------------------*/
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -39,16 +39,6 @@ export default {
   position: relative;
 }
 
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 10px;
-}
-
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
@@ -57,19 +47,6 @@ export default {
   font-weight: 600;
   margin-bottom: 10px;
 }
-
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
 .resume .resume-item::before {
   content: "";
   position: absolute;

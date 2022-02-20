@@ -3,7 +3,7 @@
         <div class="flex">
             <div class="flex flex-col h-full w-full">
                 <div class="flex flex-col bg-white pl-4">
-                    <div class="flex mb-4 text-3xl"> <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut</div>
+                    <div class="flex mb-4 text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut</div>
                     <div class="flex mb-3 text-xl">Front-end and Back-End Developer</div>
                     <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
                         <div class="flex">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col bg-white pl-4 pt-4">
-                    <div class="flex mb-4 text-3xl"> <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll</div>
+                    <div class="flex mb-4 text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll</div>
                     <div class="grid xl:grid-cols-2 xl:gap-x-9 gap-y-5 mr-10">
                         <div class="">
                             <div class="flex justify-between mb-1">
@@ -124,34 +124,67 @@
                     <div class="">
                         <div class="resume">
                             <div class="mb-5">
-                                <div class="text-3xl"> <span class="border-b-4 border-blue-900 pb-2">Res</span>ume</div>
+                                <div class="text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Res</span>ume</div>
                             </div>
                             <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
-                                <div class="resume-item pb-0">
-                                    <div class="text-2xl">Alessio Lilli</div>
-                                    <p><em>Web Developer and Back-End Developer</em></p>
-                                    <ul>
-                                        <li>Via Carlo Alberto Diano, 8, 35125 Padova PD</li>
-                                        <li>+39 324 628 6156</li>
-                                        <li>lillialessio@libero.it</li>
-                                    </ul>
+                                <div>
+                                    <div class="text-2xl mb-2">Sumary</div>
+                                    <div class="resume-item pb-0">
+                                        <div class="text-xl">Alessio Lilli</div>
+                                        <div class="mt-3"><em>Front-End Developer and Back-End Developer</em></div>
+                                        <ul class="ml-9 mt-4">
+                                            <li class="mb-2">Via Carlo Alberto Diano, 8, 35125 Padova PD</li>
+                                            <li class="mb-2">Cell: +39 324 628 6156</li>
+                                            <li>Email: lillialessio@libero.it</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-2xl mb-2">Education</div>
+                                    <div>
+                                        <div class="resume-item">
+                                            <h4>ITS DIGITAL TRANSFORMATION SPECIALIST</h4>
+                                            <h5>2020 - present</h5>
+                                            <p><em>ITS last, Verona VR</em></p>
+                                            <p>It is a two-year post-diploma specialization course in the field of information technology and new technologies. The topics covered range from website design, web programming (back-end and front-end) and data analysis to IOT and Cyber Security</p>
+                                        </div>
+                                        <div class="resume-item ">
+                                            <h4> Administration, finance and marketing</h4>
+                                            <h5>2013 - 2019</h5>
+                                            <p><em>ITSCT Einaudi Gramsci, Padua, PD</em></p>
+                                            <p>Economic school with technical computer science</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="resume-item">
-                                    <div class="text-2xl">ITS Digital Transformation Specialist</div>
-                                    <h5>2020 - present </h5>
-                                    <div><em>ITS last, Verona, VR</em></div>
-                                    <div>It is a two-year post-diploma specialization course in the field of information technology and new technologies. The topics covered range from website design, web programming (back-end and front-end), data analysis to IOT and Cyber Security</div>
-                                </div>
-                                <div class="resume-item">
-                                    <h4> Administration, finance and marketing</h4>
-                                    <h5>2013 - 2019</h5>
-                                    <p><em>ITSCT Einaudi Gramsci, Padua, PD</em></p>
-                                    <p>Economic school with technical computer science</p>
+                                <div class="">
+                                    <div>
+                                        <div class="text-2xl mb-2">Jobs/Internships</div>
+                                        <div class="resume-item">
+                                            <div class="text-xl">WEB DEVELOPER INTERNSHIP</div>
+                                            <h5>10/05/2021 - 23/07/2022</h5>
+                                            <div><em>Sync Lab S.r.l., Padua, PD</em></div>
+                                            <ul class="list-disk ml-9">
+                                                <li class="mb-2">Created website with Angular</li>
+                                                <li class="mb-2">Connected with Java Spring Boot for Back-End</li>
+                                                <li>Created a Database with MYSQL</li>
+                                            </ul>
+                                        </div>
+                                        <div class="resume-item">
+                                            <div class="text-2xl">WEB DEVELOPER INTERNSHIP</div>
+                                            <h5>14/06/2017 - 04/07/2017</h5>
+                                            <div><em>Municipality of Padua, Padua, PD</em></div>
+                                            <ul class="list-disk ml-9">
+                                                <li>Created a web-site with html and css</li>
+                                                <li>Add JavaScript and PHP function</li>
+                                                <li>Connected with MYSQL database</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
+                </div>
+                <div class="flex flex-col bg-white pl-4 pt-4">
+                    <div class="text-2xl mb-2">Project</div>
                 </div>
                 <div class="flex flex-col xl:hidden bg-gray-300">
                     <div class="flex justify-center">
