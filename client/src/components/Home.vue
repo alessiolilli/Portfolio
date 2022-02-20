@@ -133,7 +133,7 @@
                                         <div class="text-xl">Alessio Lilli</div>
                                         <div class="mt-3"><em>Front-End Developer and Back-End Developer</em></div>
                                         <ul class="ml-9 mt-4">
-                                            <li class="mb-2">Via Carlo Alberto Diano, 8, 35125 Padova PD</li>
+                                            <li class="mb-2">Via Carlo Alberto Diano, 35125 Padova PD</li>
                                             <li class="mb-2">Cell: +39 324 628 6156</li>
                                             <li>Email: lillialessio@libero.it</li>
                                         </ul>
@@ -187,7 +187,22 @@
                     <div class="text-2xl mb-2">Project</div>
                 </div>
                 <div class="flex flex-col xl:hidden bg-gray-300">
-                    <div class="flex justify-center">
+                    <div class="flex ml-10 mt-4">
+                        <div class="flex flex-col">
+                            <div class="flex text-sm">Whant to contact me?</div>
+                            <div class="flex ml-5">> lillialessio@libero.it</div>
+                            <div class="flex ml-5">> +39 3246286156</div>
+                        </div>
+                    </div>
+                    <div class="flex ml-10 mt-4" @click="maps()" >
+                        <div class="flex flex-col">
+                            <div class="flex text-sm">Location</div>
+                            <div class="flex ml-5">> Padua</div>
+                            <div class="flex ml-5">> Via carlo alberto diano</div>
+                            <div class="flex ml-5">> 35125 Italy</div>
+                        </div>
+                    </div>
+                    <div class="flex ml-10 mt-4" @click="goToLink('https://www.instagram.com/alessiolilli/')">
                         <div class="flex flex-col">
                             <div class="flex">Instagram</div>
                         </div>
@@ -195,7 +210,7 @@
                             <font-awesome-icon icon="fa-brands fa-instagram"/>
                         </div>
                     </div>
-                    <div class="flex justify-center">
+                    <div class="flex ml-10 mt-4 mb-4" @click="goToLink('https://www.linkedin.com/in/alessio-lilli-628160202/')">
                         <div class="flex flex-col">
                             <div class="flex">Linkedin</div>
                         </div>
@@ -210,6 +225,15 @@
        </div>
     </div>
 </template>
-<script>
-
+<script lang="ts">
+export default {
+    methods:{
+        maps(){
+            window.open("https://www.google.it/maps/place/45%C2%B022'51.6%22N+11%C2%B051'52.8%22E/@45.3810046,11.8637318,18z/data=!3m1!4b1!4m6!3m5!1s0x0:0x3c9a94c930b0f4f6!7e2!8m2!3d45.3810026!4d11.8646519","_blank");
+        },
+        goToLink(link){
+            window.open(link,"_blank")
+        }
+    }
+}
 </script>
