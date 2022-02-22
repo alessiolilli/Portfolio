@@ -154,7 +154,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="">
+                                <div class="mb-3">
                                     <div>
                                         <div class="text-2xl mb-2">Jobs/Internships</div>
                                         <div class="resume-item">
@@ -257,8 +257,6 @@
                             <font-awesome-icon icon="fa-brands fa-linkedin-in" />
                         </div>
                     </div>
-                        <div class="flex justify-center">
-                        </div>
                 </div>
             </div>
        </div>
