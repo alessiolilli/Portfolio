@@ -14,8 +14,10 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faAngleRight,faInstagram,faLinkedinIn,faHouse,faUser,faBriefcase,faFile,faEnvelope)
+library.add(faAngleRight,faInstagram,faLinkedinIn,faHouse,faUser,faBriefcase,faFile,faEnvelope,faMapMarkedAlt,faMobileAlt)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
@@ -23,14 +25,19 @@ Vue.use(VueRouter);
 
 const routes=[
   {
-    path:'',
+    path:'/home',
     name:'home',
     component:Home
   },
+  {
+    path:'',
+    redirect:'/home'
+  }
 ];
+  
 const router = new VueRouter({
   mode:'history',
-  routes
+  routes,
 })
 
 new Vue({

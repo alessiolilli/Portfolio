@@ -18,7 +18,7 @@
                                 <font-awesome-icon icon="fa-solid fa-angle-right" class="mr-3 prova"/>
                             </div>
                             <div class="flex flex-col">Website:</div>
-                            <div class="flex flex-col ml-2">www.prova.it</div>
+                            <div class="flex flex-col ml-2">https://alessio-lilli-portfolio.netlify.app/</div>
                         </div>
                         <div class="flex">
                             <div class="flex flex-col justify-center">
@@ -112,10 +112,10 @@
                         <div class="">
                             <div class="flex justify-between mb-1">
                                 <span class="text-sm font-medium dark:text-white">JAVA</span>
-                                <span class="text-sm font-medium dark:text-white">45%</span>
+                                <span class="text-sm font-medium dark:text-white">35%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 35%"></div>
                             </div>
                         </div>
                    </div>
@@ -183,8 +183,47 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col bg-white pl-4 pt-4">
-                    <div class="text-2xl mb-2">Project</div>
+                <div class="hidden bg-gray-300 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4">
+                    <div class="flex mb-4 text-3xl text-blue-900" id="footer"> <span class="border-b-4 border-blue-900 pb-2">Con</span>tact</div>
+                    <div class="flex flex-col">
+                        <div class="flex flex-col mb-3">
+                            <div class="flex ml-7">
+                                <div class="text-xl flex flex-col justify-center mr-3 w-9">
+                                    <font-awesome-icon icon="fas fa-map-marked-alt" class="p-2"/>
+                                </div>
+                                <div class="flex flex-col" @click="maps()">
+                                    <div class="text-2xl">Location:</div>
+                                    <div class="text-gray-800">Via Carlo Alberto Diano, 35125, Padova PD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col mb-3">
+                            <div class="flex ml-7">
+                                <div class="flex flex-col justify-center mr-3 w-9">
+                                    <div class="text-xl w-full">
+                                        <font-awesome-icon icon="fa-solid fa-envelope" class="p-2"/>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="text-2xl">Email:</div>
+                                    <div class="text-gray-800">lillialessio@libero.it</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex ml-7">
+                                <div class="flex flex-col justify-center mr-3 w-9">
+                                    <div class="text-xl w-full">
+                                        <font-awesome-icon icon="fas fa-mobile-alt" class="p-2"/>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="text-2xl">Cell:</div>
+                                    <div class="text-gray-800">+39 3246286156</div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
                 </div>
                 <div class="flex flex-col xl:hidden bg-gray-300">
                     <div class="flex ml-10 mt-4">
@@ -219,7 +258,7 @@
                         </div>
                     </div>
                         <div class="flex justify-center">
-                    </div>
+                        </div>
                 </div>
             </div>
        </div>
