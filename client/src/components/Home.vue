@@ -3,7 +3,7 @@
         <div class="flex">
             <div class="flex flex-col ">
                 <div class="flex flex-col bg-white pl-4">
-                    <div class="flex mb-4 text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut</div>
+                    <div class="flex mb-4 text-3xl text-blue-900" id="home"> <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut</div>
                     <div class="flex mb-3 text-xl">Front-end and Back-End Developer</div>
                     <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
                         <div class="flex">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col bg-white pl-4 pt-4">
-                    <div class="flex mb-4 text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll</div>
+                    <div class="flex mb-4 text-3xl text-blue-900" id="skill"> <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll</div>
                     <div class="grid xl:grid-cols-2 xl:gap-x-9 gap-y-5 mr-10">
                         <div class="">
                             <div class="flex justify-between mb-1">
@@ -124,7 +124,7 @@
                     <div class="">
                         <div class="resume">
                             <div class="mb-5">
-                                <div class="text-3xl text-blue-900"> <span class="border-b-4 border-blue-900 pb-2">Res</span>ume</div>
+                                <div class="text-3xl text-blue-900" id="resume"> <span class="border-b-4 border-blue-900 pb-2">Res</span>ume</div>
                             </div>
                             <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
                                 <div>
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="hidden bg-gray-300 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4">
-                    <div class="flex mb-4 text-3xl text-blue-900" id="footer"> <span class="border-b-4 border-blue-900 pb-2">Con</span>tact</div>
+                    <div class="flex mb-4 text-3xl text-blue-900" id="contact"> <span class="border-b-4 border-blue-900 pb-2">Con</span>tact</div>
                     <div class="flex flex-col">
                         <div class="flex flex-col mb-3">
                             <div class="flex ml-7">

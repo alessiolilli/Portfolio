@@ -19,23 +19,23 @@
             </div>
         </div>
         <div class="flex w-full justify-around xl:flex-col xl:justify-around xl:h-1/3 xl:ml-16 xl:w-1/2">
-            <div class="flex flex-col xl:justify-start xl:flex-row justify-center">
+            <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer" @click="goTo('/home/#home')">
                 <font-awesome-icon icon="fa-solid fa-house" class="xl:mr-3 h-5"/>
                 Home
             </div>
-            <div class="flex flex-col xl:justify-start  xl:flex-row justify-center">
+            <div class="flex flex-col xl:justify-start  xl:flex-row justify-center cursor-pointer" @click="goTo('/home/#home')">
                 <font-awesome-icon icon="fa-solid fa-user" class="xl:mr-3 h-5"/>
                 About
             </div>
-            <div class="flex flex-col xl:justify-start xl:flex-row justify-center">
+            <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer" @click="goTo('/home/#skill')">
                 <font-awesome-icon icon="fa-solid fa-briefcase" class="xl:mr-3 h-5"/>
                 Skill
             </div>
-            <div class="flex flex-col xl:flex-row xl:justify-start justify-center">
+            <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer" @click="goTo('/home/#resume')">
                 <font-awesome-icon icon="fa-solid fa-file" class="xl:mr-3 h-5"/>
                 Resume
             </div>
-            <div class="flex flex-col xl:flex-row xl:justify-start justify-center">
+            <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer" @click="goTo('/home/#contact')">
                 <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-3 h-5"/>
                 Contact
             </div>
@@ -46,7 +46,7 @@
 export default {
     methods:{
         goTo(link){
-            this.$router.hash({hash:'#'+link})
+            window.open(link,"_self")
         }
     }
 }
