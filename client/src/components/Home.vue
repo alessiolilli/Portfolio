@@ -183,15 +183,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="hidden bg-gray-300 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4">
-                    <div class="flex mb-4 text-3xl text-blue-900" id="contact"> <span class="border-b-4 border-blue-900 pb-2">Con</span>tact</div>
+                <div class="lex flex-col bg-gray-300 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4" id="contact">
+                    <div class="hidden xl:flex xl:mb-4 xl:text-3xl text-blue-900" id="contact"> <span class="border-b-4 border-blue-900 pb-2">Con</span>tact</div>
                     <div class="flex flex-col">
                         <div class="flex flex-col mb-3">
                             <div class="flex ml-7">
                                 <div class="text-xl flex flex-col justify-center mr-3 w-9">
                                     <font-awesome-icon icon="fas fa-map-marked-alt" class="p-2"/>
                                 </div>
-                                <div class="flex flex-col" @click="maps()">
+                                <div class="mt-3 xl:flex xl:flex-col" @click="maps()">
                                     <div class="text-2xl">Location:</div>
                                     <div class="text-gray-800">Via Carlo Alberto Diano, 35125, Padova PD</div>
                                 </div>
@@ -223,39 +223,6 @@
                                 </div>
                             </div>
                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col xl:hidden bg-gray-300">
-                    <div class="flex ml-10 mt-4">
-                        <div class="flex flex-col">
-                            <div class="flex text-sm">Whant to contact me?</div>
-                            <div class="flex ml-5">> lillialessio@libero.it</div>
-                            <div class="flex ml-5">> +39 3246286156</div>
-                        </div>
-                    </div>
-                    <div class="flex ml-10 mt-4" @click="maps()" >
-                        <div class="flex flex-col">
-                            <div class="flex text-sm">Location</div>
-                            <div class="flex ml-5">> Padua</div>
-                            <div class="flex ml-5">> Via carlo alberto diano</div>
-                            <div class="flex ml-5">> 35125 Italy</div>
-                        </div>
-                    </div>
-                    <div class="flex ml-10 mt-4" @click="goToLink('https://www.instagram.com/alessiolilli/')">
-                        <div class="flex flex-col">
-                            <div class="flex">Instagram</div>
-                        </div>
-                        <div class="flex flex-col ml-3 justify-center">
-                            <font-awesome-icon icon="fa-brands fa-instagram"/>
-                        </div>
-                    </div>
-                    <div class="flex ml-10 mt-4 mb-4" @click="goToLink('https://www.linkedin.com/in/alessio-lilli-628160202/')">
-                        <div class="flex flex-col">
-                            <div class="flex">Linkedin</div>
-                        </div>
-                        <div class="flex flex-col ml-3 justify-center">
-                            <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                        </div>
                     </div>
                 </div>
             </div>
