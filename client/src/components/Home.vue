@@ -222,8 +222,50 @@
                                     <div class="text-gray-800">+39 3246286156</div>
                                 </div>
                             </div>
-                       </div>
+                        </div>
+                        <div class="flex ml-7 mt-4 xl:hidden" @click="goToLink('https://www.instagram.com/alessiolilli/')">
+                            <div class="flex">
+                                <div class="flex flex-col justify-center mr-3 w-9">
+                                    <div class="text-xl w-full ml-2">
+                                        <font-awesome-icon icon="fa-brands fa-instagram"/>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="flex text-2xl">Instagram</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex ml-7 mt-4 mb-4 xl:hidden" @click="goToLink('https://www.linkedin.com/in/alessio-lilli-628160202/')">
+                            <div class="flex">
+                                <div class="flex flex-col justify-center mr-3 w-9">
+                                    <div class="text-xl w-full ml-2">
+                                        <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+                                    </div>
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="flex text-2xl">Linkedin</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="hidden  xl:hidden bg-gray-300" id="contact">
+                    <div class="flex ml-10 mt-4">
+                        <div class="flex flex-col">
+                            <div class="flex text-sm">Whant to contact me?</div>
+                            <div class="flex ml-5">> lillialessio@libero.it</div>
+                            <div class="flex ml-5">> +39 3246286156</div>
+                        </div>
+                    </div>
+                    <div class="flex ml-10 mt-4" @click="maps()" >
+                        <div class="flex flex-col">
+                            <div class="flex text-sm">Location</div>
+                            <div class="flex ml-5">> Padua</div>
+                            <div class="flex ml-5">> Via carlo alberto diano</div>
+                            <div class="flex ml-5">> 35125 Italy</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
        </div>
