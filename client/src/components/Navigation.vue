@@ -19,36 +19,36 @@
             </div>
         </div>
         <div class="flex w-full justify-around xl:flex-col xl:justify-around xl:h-1/3 xl:ml-16 xl:w-1/2">
-            <a href="#home">
-                <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer">
+            <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer">
+                <a href="#home">
                     <font-awesome-icon icon="fa-solid fa-house" class="xl:mr-3 h-5"/>
                     Home
-                </div>
-            </a>
-            <a href="#home">
-                <div class="flex flex-col xl:justify-start  xl:flex-row justify-center cursor-pointer">
+                </a>
+            </div>
+            <div class="flex flex-col xl:justify-start  xl:flex-row justify-center cursor-pointer">
+                <a href="#home">
                     <font-awesome-icon icon="fa-solid fa-user" class="xl:mr-3 h-5"/>
                     About
-                </div>
-            </a>
-            <a href="#skill">
-                <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer">
+                </a>
+            </div>
+            <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer">
+                <a href="#skill">
                     <font-awesome-icon icon="fa-solid fa-briefcase" class="xl:mr-3 h-5"/>
                     Skill
-                </div>
-            </a>
-            <a href="#resume">
-                <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
+                </a>
+            </div>
+            <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
+                <a href="#resume">
                     <font-awesome-icon icon="fa-solid fa-file" class="xl:mr-3 h-5"/>
                     Resume
-                </div>
-            </a>
-            <a href="#contact">
-                <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
+                </a>
+            </div>
+            <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
+                <a href="#contact">
                     <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-3 h-5"/>
                     Contact
-                </div>
-            </a>
+                </a>
+            </div>
        </div>
     </div>
 </template>
