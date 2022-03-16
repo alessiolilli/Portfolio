@@ -191,7 +191,7 @@
                                 <div class="text-xl flex flex-col justify-center mr-3 w-9">
                                     <font-awesome-icon icon="fas fa-map-marked-alt" class="p-2"/>
                                 </div>
-                                <div class="mt-3 xl:flex xl:flex-col" @click="maps()">
+                                <div class="mt-3 xl:flex xl:flex-col cursor-pointer" @click="maps()">
                                     <div class="text-2xl">Location:</div>
                                     <div class="text-gray-800">Via Carlo Alberto Diano, 35125, Padova PD</div>
                                 </div>
