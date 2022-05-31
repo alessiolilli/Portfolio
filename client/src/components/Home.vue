@@ -55,6 +55,15 @@
                                 <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
                             </div>
                         </div>
+                         <div class="">
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium dark:text-white">React</span>
+                                <span class="text-sm font-medium dark:text-white">65%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
                         <div class="">
                             <div class="flex justify-between mb-1">
                                 <span class="text-sm font-medium dark:text-white">ANGULAR</span>
@@ -97,7 +106,7 @@
                                 <span class="text-sm font-medium dark:text-white">55%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 65%"></div>
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 55%"></div>
                             </div>
                         </div>
                         <div class="">
@@ -112,10 +121,10 @@
                         <div class="">
                             <div class="flex justify-between mb-1">
                                 <span class="text-sm font-medium dark:text-white">JAVA</span>
-                                <span class="text-sm font-medium dark:text-white">35%</span>
+                                <span class="text-sm font-medium dark:text-white">25%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 35%"></div>
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 25%"></div>
                             </div>
                         </div>
                    </div>
@@ -131,7 +140,7 @@
                                     <div class="text-2xl mb-2">Sumary</div>
                                     <div class="resume-item pb-0">
                                         <div class="text-xl">Alessio Lilli</div>
-                                        <div class="mt-3"><em>Front-End Developer and Back-End Developer</em></div>
+                                        <div class="mt-3"><em>Web Developer</em></div>
                                         <ul class="ml-9 mt-4">
                                             <li class="mb-2">Via Carlo Alberto Diano, 35125 Padova PD</li>
                                             <li class="mb-2">Cell: +39 324 628 6156</li>
