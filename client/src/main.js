@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import './index.css'
-import Home from './components/Home.vue'
+import Home from './components/HomePage.vue'
 
 import { FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
