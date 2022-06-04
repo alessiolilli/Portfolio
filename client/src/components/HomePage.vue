@@ -211,7 +211,7 @@
                     {{ language === "EN" ? "Location" : "Posizione" }}:
                   </div>
                   <div class="text-gray-800">
-                    Via Carlo Alberto Diano, 35125, Padova PD
+                    Padova PD
                   </div>
                 </div>
               </div>
