@@ -147,24 +147,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="hidden  xl:hidden bg-gray-300" id="contact">
-                    <div class="flex ml-10 mt-4">
-                        <div class="flex flex-col">
-                            <div class="flex text-sm">Whant to contact me?</div>
-                            <div class="flex ml-5">> lillialessio@libero.it</div>
-                            <div class="flex ml-5">> +39 3246286156</div>
-                        </div>
-                    </div>
-                    <div class="flex ml-10 mt-4" @click="maps()" >
-                        <div class="flex flex-col">
-                            <div class="flex text-sm">Location</div>
-                            <div class="flex ml-5">> Padua</div>
-                            <div class="flex ml-5">> Via carlo alberto diano</div>
-                            <div class="flex ml-5">> 35125 Italy</div>
-                        </div>
-                    </div>
-                    
-                </div>
             </div>
        </div>
     </div>
