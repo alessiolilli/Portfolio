@@ -308,7 +308,7 @@
             { section: "Birthday", data: "2 November 1999" },
             {
               section: "Website",
-              data: "https://alessio-lilli-portfolio.netlify.app/",
+              data: "https://www.alessiolilli.com/",
             },
             { section: "Phone", data: "+39 3246286156" },
             { section: "City", data: "Padua, Italy" },
