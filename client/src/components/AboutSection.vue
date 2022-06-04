@@ -25,6 +25,11 @@
 <script>
   export default {
     props: ["propsData"],
+    watch: {
+      propsData: function () {
+        this.informations = this.propsData;
+      },
+    },
     data() {
       return {
         informations: this.propsData,

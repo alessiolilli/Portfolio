@@ -34,19 +34,19 @@
             <div class="flex flex-col xl:justify-start xl:flex-row justify-center cursor-pointer">
                 <a href="#skill">
                     <font-awesome-icon icon="fa-solid fa-briefcase" class="xl:mr-3 h-5"/>
-                    Skill
+                    Skills
                 </a>
             </div>
             <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
                 <a href="#resume">
                     <font-awesome-icon icon="fa-solid fa-file" class="xl:mr-3 h-5"/>
-                    Resume
+                    {{ language === 'EN' ? "Resume" : "Generale"}}
                 </a>
             </div>
             <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
                 <a href="#contact">
                     <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-3 h-5"/>
-                    Contact
+                    {{ language === 'EN' ? "Contact" : "Contatti"}}
                 </a>
             </div>
        </div>
@@ -54,6 +54,19 @@
 </template>
 <script>
 export default {
+    props: {
+      "language":String,
+    },
+    watch:{
+      language :function (){
+        this.actualLang =this.language
+      }
+    },
+    data(){
+        return {
+            actualLang : this.language
+        }
+    },
     methods:{
         goTo(link){
             window.open(link,"_blank")

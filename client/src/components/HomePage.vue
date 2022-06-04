@@ -3,7 +3,8 @@
     <div class="flex">
       <div class="flex flex-col">
         <div class="flex flex-col bg-white pl-4">
-          <AboutSection :propsData="aboutSection" />
+          <AboutSection v-if="actualLang === 'EN'" :propsData="aboutSection" />
+          <AboutSection v-else :propsData="aboutSectionIT" />
         </div>
         <div class="flex flex-col bg-white pl-4 pt-4">
           <SkillsSections :propsData="skillsSection" />
@@ -30,11 +31,15 @@
                       <li>Email: lillialessio@libero.it</li>
                     </ul>
                   </div>
-                  <div class="text-2xl mb-2">Education</div>
+                  <div class="text-2xl mb-2">
+                    {{ language === "EN" ? "Education" : "Educazione" }}
+                  </div>
                   <div>
                     <div class="resume-item">
                       <h4>ITS DIGITAL TRANSFORMATION SPECIALIST</h4>
-                      <h5>2020 - present</h5>
+                      <h5>
+                        2020 - {{ language === "EN" ? "present" : "In atto" }}
+                      </h5>
                       <p
                         @click="
                           goToLink(
@@ -46,15 +51,21 @@
                         <em>ITS last, Verona VR</em>
                       </p>
                       <p>
-                        It is a two-year post-diploma specialization course in
-                        the field of information technology and new
-                        technologies. The topics covered range from website
-                        design, web programming (back-end and front-end) and
-                        data analysis to IOT and Cyber Security
+                        {{
+                          language === "EN"
+                            ? "It is a two-year post-diploma specialization course in the field of information technology and new technologies. The topics covered range from website design, web programming (back-end and front-end) and data analysis to IOT and Cyber Security"
+                            : "È un corso di specializzazione post-diploma della durata di due anni nel campo dell'informatica e delle nuove tecnologie. Gli argomenti trattati spaziano dalla progettazione di siti web, alla programmazione web (back-end e front-end) e all'analisi dei dati fino all'IOT e alla Cyber Security"
+                        }}
                       </p>
                     </div>
                     <div class="resume-item">
-                      <h4>Administration, finance and marketing</h4>
+                      <h4>
+                        {{
+                          language === "EN"
+                            ? "Administration, finance and marketing"
+                            : "Amministrazione, finanza e marketing"
+                        }}
+                      </h4>
                       <h5>2013 - 2019</h5>
                       <p
                         @click="
@@ -66,15 +77,31 @@
                       >
                         <em>ITSCT Einaudi Gramsci, Padua, PD</em>
                       </p>
-                      <p>Economic school with technical computer science</p>
+                      <p>
+                        {{
+                          language === "EN"
+                            ? "Economic school with technical computer science"
+                            : "Suola Economica con indirizzo Informatico"
+                        }}
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="mb-3">
                   <div>
-                    <div class="text-2xl mb-2">Jobs/Internships</div>
+                    <div class="text-2xl mb-2">
+                      {{
+                        language === "EN" ? "Jobs/Interships" : "Lavori/Stage"
+                      }}
+                    </div>
                     <div class="resume-item">
-                      <div class="text-xl">WEB DEVELOPER INTERNSHIP</div>
+                      <div class="text-xl">
+                        {{
+                          language === "EN"
+                            ? "WEB DEVELOPER INTERNSHIP"
+                            : "Stage WEB DEVELOPER"
+                        }}
+                      </div>
                       <h5>04/04/2022 - Actual</h5>
                       <div
                         class="cursor-pointer text-blue-700"
@@ -89,7 +116,13 @@
                       </ul>
                     </div>
                     <div class="resume-item">
-                      <div class="text-xl">WEB DEVELOPER INTERNSHIP</div>
+                      <div class="text-xl">
+                        {{
+                          language === "EN"
+                            ? "WEB DEVELOPER INTERNSHIP"
+                            : "Stage WEB DEVELOPER"
+                        }}
+                      </div>
                       <h5>10/05/2021 - 23/07/2022</h5>
                       <div
                         class="cursor-pointer text-blue-700"
@@ -98,21 +131,49 @@
                         <em>Sync Lab S.r.l., Padua, PD</em>
                       </div>
                       <ul class="list-disk ml-9">
-                        <li class="mb-2">Created website with Angular</li>
                         <li class="mb-2">
-                          Connected with Java Spring Boot for Back-End
+                          {{
+                            language === "EN"
+                              ? "Created website with Angular"
+                              : "Creato sito con Angular"
+                          }}
                         </li>
-                        <li>Created a Database with MYSQL</li>
+                        <li class="mb-2">
+                          {{
+                            language === "EN"
+                              ? "Connected with Java Spring Boot"
+                              : "Connesso a Java Spring Boot"
+                          }}
+                        </li>
+                        <li>
+                          {{
+                            language === "EN"
+                              ? "Created a Database with MYSQL"
+                              : "Creato un Database con MYSQL"
+                          }}
+                        </li>
                       </ul>
                     </div>
                     <div class="resume-item">
-                      <div class="text-xl">WEB DEVELOPER INTERNSHIP</div>
+                      <div class="text-xl">
+                        {{
+                          language === "EN"
+                            ? "WEB DEVELOPER INTERNSHIP"
+                            : "Stage WEB DEVELOPER"
+                        }}
+                      </div>
                       <h5>14/06/2017 - 04/07/2017</h5>
-                      <div><em>Municipality of Padua, Padua, PD</em></div>
+                      <div><em>{{
+                          language === "EN"
+                            ? "Municipality of Padua"
+                            : "Comune di Padova"
+                        }}, Padua, PD</em></div>
                       <ul class="list-disk ml-9">
-                        <li>Created a web-site with html and css</li>
-                        <li>Add JavaScript and PHP function</li>
-                        <li>Connected with MYSQL database</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>PHP</li>
+                        <li>MYSQL</li>
                       </ul>
                     </div>
                   </div>
@@ -122,7 +183,7 @@
           </div>
         </div>
         <div
-          class="lex flex-col bg-gray-300 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4"
+          class="lex flex-col bg-gray-200 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4"
           id="contact"
         >
           <div
@@ -215,14 +276,25 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
   import AboutSection from "./AboutSection.vue";
   import SkillsSections from "./SkillsSections.vue";
+
   export default {
+    props: {
+      language: String,
+    },
+    watch: {
+      language: function () {
+        this.actualLang = this.language;
+      },
+    },
     data() {
       return {
+        actualLang: this.language,
+        show: true,
         aboutSection: {
-          name: "Front-end and Back-End Developer",
+          name: "Web Devloper",
           sections: [
             { section: "Birthday", data: "2 November 1999" },
             {
@@ -231,6 +303,19 @@
             },
             { section: "Phone", data: "+39 3246286156" },
             { section: "City", data: "Padua, Italy" },
+            { section: "Email", data: "lillialessio@libero.it" },
+          ],
+        },
+        aboutSectionIT: {
+          name: "Web Developer",
+          sections: [
+            { section: "Compleanno", data: "2 Novembre 1999" },
+            {
+              section: "Sito Web",
+              data: "https://alessio-lilli-portfolio.netlify.app/",
+            },
+            { section: "Cellulare", data: "+39 3246286156" },
+            { section: "Citta'", data: "Padova, Italia" },
             { section: "Email", data: "lillialessio@libero.it" },
           ],
         },
