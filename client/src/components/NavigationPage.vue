@@ -40,12 +40,12 @@
             <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
                 <a href="#resume">
                     <font-awesome-icon icon="fa-solid fa-file" class="xl:mr-3 h-5"/>
-                    {{ language === 'EN' ? "Resume" : "Generale"}}
+                    {{ language === 'EN' ? "Resume" : "CV"}}
                 </a>
             </div>
             <div class="flex flex-col xl:flex-row xl:justify-start justify-center cursor-pointer">
                 <a href="#contact">
-                    <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-3 h-5"/>
+                    <font-awesome-icon icon="fa-solid fa-envelope" class="xl:mr-1 h-5"/>
                     {{ language === 'EN' ? "Contact" : "Contatti"}}
                 </a>
             </div>

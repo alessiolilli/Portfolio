@@ -163,11 +163,15 @@
                         }}
                       </div>
                       <h5>14/06/2017 - 04/07/2017</h5>
-                      <div><em>{{
-                          language === "EN"
-                            ? "Municipality of Padua"
-                            : "Comune di Padova"
-                        }}, Padua, PD</em></div>
+                      <div>
+                        <em
+                          >{{
+                            language === "EN"
+                              ? "Municipality of Padua"
+                              : "Comune di Padova"
+                          }}, Padua, PD</em
+                        >
+                      </div>
                       <ul class="list-disk ml-9">
                         <li>HTML</li>
                         <li>CSS</li>
@@ -190,7 +194,8 @@
             class="hidden xl:flex xl:mb-4 xl:text-3xl text-blue-900"
             id="contact"
           >
-            <span class="border-b-4 border-blue-900 pb-2">Con</span>tact
+            <span class="border-b-4 border-blue-900 pb-2">Con</span
+            >{{ language === "EN" ? "tact" : "tatti" }}
           </div>
           <div class="flex flex-col">
             <div class="flex flex-col mb-3">
@@ -202,7 +207,9 @@
                   class="mt-3 xl:flex xl:flex-col cursor-pointer"
                   @click="maps()"
                 >
-                  <div class="text-2xl">Location:</div>
+                  <div class="text-2xl">
+                    {{ language === "EN" ? "Location" : "Posizione" }}:
+                  </div>
                   <div class="text-gray-800">
                     Via Carlo Alberto Diano, 35125, Padova PD
                   </div>
@@ -233,7 +240,9 @@
                   </div>
                 </div>
                 <div class="flex flex-col">
-                  <div class="text-2xl">Cell:</div>
+                  <div class="text-2xl">
+                    {{ language === "EN" ? "Cell" : "Cellulare" }}:
+                  </div>
                   <div class="text-gray-800">+39 3246286156</div>
                 </div>
               </div>
