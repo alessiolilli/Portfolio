@@ -346,7 +346,7 @@
     methods: {
       maps() {
         window.open(
-          "https://www.google.it/maps/place/45%C2%B022'51.6%22N+11%C2%B051'52.8%22E/@45.3810046,11.8637318,18z/data=!3m1!4b1!4m6!3m5!1s0x0:0x3c9a94c930b0f4f6!7e2!8m2!3d45.3810026!4d11.8646519",
+          "https://goo.gl/maps/KfJx6FePXHxfdHy77",
           "_blank"
         );
       },
