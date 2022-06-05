@@ -69,7 +69,7 @@
                       <h5>2013 - 2019</h5>
                       <p
                         @click="
-                          goTLink(
+                          goToLink(
                             'https://www.einaudigramsci.edu.it/pagine/articolazione-sia'
                           )
                         "
