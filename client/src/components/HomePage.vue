@@ -1,20 +1,20 @@
 <template>
   <div class="flex flex-col">
-    <div class="flex">
+    <div class="flex xl:max-w-7xl">
       <div class="flex flex-col">
-        <div class="flex flex-col bg-white pl-4">
+        <div class="flex flex-col pl-4">
           <AboutSection v-if="actualLang === 'EN'" :propsData="aboutSection" />
           <AboutSection v-else :propsData="aboutSectionIT" />
         </div>
-        <div class="flex flex-col bg-white pl-4 pt-4">
+        <div class="flex flex-col  pl-4 pt-4">
           <SkillsSections :propsData="skillsSection" />
         </div>
-        <div class="flex flex-col bg-white pl-4 pt-4">
+        <div class="flex flex-col  pl-4 pt-4">
           <div class="">
             <div class="resume">
               <div class="mb-5">
-                <div class="text-3xl text-blue-900" id="resume">
-                  <span class="border-b-4 border-blue-900 pb-2">Res</span>ume
+                <div class="text-3xl titles" id="resume">
+                  <span class="border-b-4 borders pb-2">Res</span>ume
                 </div>
               </div>
               <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">
@@ -22,7 +22,7 @@
                   <div class="text-2xl mb-2">Sumary</div>
                   <div class="resume-item pb-0">
                     <div class="text-xl">Alessio Lilli</div>
-                    <div class="mt-3"><em>Web Developer</em></div>
+                    <div class="mt-3 prova"><em>Web Developer</em></div>
                     <ul class="ml-9 mt-4">
                       <li class="mb-2">
                         Via Carlo Alberto Diano, 35125 Padova PD
@@ -46,7 +46,7 @@
                             'https://itslogistica.it/tecnico-superiore-digital-transformation-specialist'
                           )
                         "
-                        class="cursor-pointer text-blue-700"
+                        class="cursor-pointer prova"
                       >
                         <em>ITS last, Verona VR</em>
                       </p>
@@ -73,7 +73,7 @@
                             'https://www.einaudigramsci.edu.it/pagine/articolazione-sia'
                           )
                         "
-                        class="cursor-pointer text-blue-700"
+                        class="cursor-pointer prova"
                       >
                         <em>ITSCT Einaudi Gramsci, Padua, PD</em>
                       </p>
@@ -104,7 +104,7 @@
                       </div>
                       <h5>04/04/2022 - Actual</h5>
                       <div
-                        class="cursor-pointer text-blue-700"
+                        class="cursor-pointer prova"
                         @click="goToLink('https://kuama.it/')"
                       >
                         <em>Kuama S.r.l., Vigonza, PD</em>
@@ -125,7 +125,7 @@
                       </div>
                       <h5>10/05/2021 - 23/07/2022</h5>
                       <div
-                        class="cursor-pointer text-blue-700"
+                        class="cursor-pointer prova"
                         @click="goToLink('https://www.synclab.it/')"
                       >
                         <em>Sync Lab S.r.l., Padua, PD</em>
@@ -163,7 +163,7 @@
                         }}
                       </div>
                       <h5>14/06/2017 - 04/07/2017</h5>
-                      <div>
+                      <div class="prova">
                         <em
                           >{{
                             language === "EN"
@@ -187,17 +187,17 @@
           </div>
         </div>
         <div
-          class="lex flex-col bg-gray-200 xl:flex xl:flex-col xl:bg-white xl:pl-4 xl:pt-4"
+          class="flex flex-col xl:flex xl:flex-col xl:pl-4 xl:pt-4"
           id="contact"
         >
           <div
-            class="hidden xl:flex xl:mb-4 xl:text-3xl text-blue-900"
+            class="hidden xl:flex titles xl:mb-4 xl:text-3xl "
             id="contact"
           >
-            <span class="border-b-4 border-blue-900 pb-2">Con</span
+            <span class="border-b-4 borders pb-2">Con</span
             >{{ language === "EN" ? "tact" : "tatti" }}
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col mb-20">
             <div class="flex flex-col mb-3">
               <div class="flex ml-7">
                 <div class="text-xl flex flex-col justify-center mr-3 w-9">
@@ -210,8 +210,8 @@
                   <div class="text-2xl">
                     {{ language === "EN" ? "Location" : "Posizione" }}:
                   </div>
-                  <div class="text-gray-800">
-                    Padova PD
+                  <div class="prova">
+                    Via Carlo Alberto Diano, 35125, Padova PD
                   </div>
                 </div>
               </div>
@@ -228,7 +228,7 @@
                 </div>
                 <div class="flex flex-col">
                   <div class="text-2xl">Email:</div>
-                  <div class="text-gray-800">lillialessio@libero.it</div>
+                  <div class="prova">lillialessio@libero.it</div>
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@
                   <div class="text-2xl">
                     {{ language === "EN" ? "Cell" : "Cellulare" }}:
                   </div>
-                  <div class="text-gray-800">+39 3246286156</div>
+                  <div class="prova">+39 3246286156</div>
                 </div>
               </div>
             </div>
@@ -330,13 +330,13 @@
         },
         skillsSection: {
           sections: [
-            { name: "REACT", percet: "70" },
-            { name: "VUE", percet: "70" },
-            { name: "ANGULAR", percet: "65" },
-            { name: "TAILWIND", percet: "65" },
-            { name: "LARAVEL", percet: "60" },
-            { name: "MYSQL", percet: "65" },
+            { name: "REACT", percet: "65" },
+            { name: "VUE", percet: "65" },
+            { name: "ANGULAR", percet: "60" },
+            { name: "TAILWIND", percet: "60" },
             { name: "CSS", percet: "65" },
+            { name: "LARAVEL", percet: "55" },
+            { name: "MYSQL", percet: "65" },
             { name: "PYTHON", percet: "55" },
             { name: "JAVA", percet: "25" },
           ],
