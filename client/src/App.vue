@@ -1,14 +1,29 @@
 <template>
-  <div
-    id="app"
-    class="flex flex-col w-screen h-screen background"
-  >
-    <!-- <h1 class="temporalProva overflow-y-hidden bottom-0 left-0 absolute">
-      provaaaaaaaaaaaaaaaaa
-    </h1> -->
+  <div id="app" class="flex flex-col w-screen h-screen background">
     <div class="xl:flex xl:flex-col hidden">
       <Navigation :language="language"></Navigation>
     </div>
+    <h1 class="hidden 2xl:flex flex-col bottom-10 left-20 absolute">
+      <div
+        class="border-white border-2 rounded-full p-2 bg-gray-700 cursor-pointer"
+        @click="goTo('https://www.instagram.com/alessiolilli/')"
+      >
+        <font-awesome-icon icon="fa-brands fa-instagram" />
+      </div>
+      <div
+        class="border-white border-2 mt-4 rounded-full p-2 bg-gray-700 cursor-pointer"
+        @click="goTo('https://www.linkedin.com/in/alessio-lilli-628160202/')"
+      >
+        <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+      </div>
+      <div class="mt-5 flex">
+        <div class="line ml-3"/>
+      </div>
+    </h1>
+    <h1 class="hidden 2xl:flex flex-col bottom-10 right-20 absolute">
+      <div class="flex rotateText">lillialessio@libero.it</div>
+      <div class="line flex ml-16 mt-20"></div>
+    </h1>
     <div
       class="flex flex-col xl:flex xl:flex-row xl:flex-grow overflow-auto xl:h-full xl:w-full xl:justify-center"
     >
@@ -45,6 +60,9 @@
       updateScroll() {
         this.scrollPosition = window.scrollY;
       },
+      goTo(link) {
+        window.open(link, "_blank");
+      },
     },
     mounted() {
       window.addEventListener("scroll", this.updateScroll);
@@ -55,10 +73,30 @@
   .change_color {
     background-color: red;
   }
-  .temporalProva {
-    transform-origin: 10 10;
-    transform: rotate(90deg);
+
+  .rotateText {
+    transform: rotate3d(0, 0, 1, 90deg);
   }
+
+  .line {
+    height: 100px;
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #48b9a5;
+    position: relative;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    ::-webkit-scrollbar-thumb {
+      background: #48b9a5;
+      border-radius: 10px;
+    }
+  }
+
   .background {
     background-color: #0a192f !important;
     color: white;
