@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="flex mb-4 text-3xl text-blue-900" id="home">
-      <span class="border-b-4 border-blue-900 pb-2">Abo</span>ut
+    <div class="flex mb-4 text-3xl titles" id="home">
+      <span class="border-b-4 borders pb-2">Abo</span>ut
     </div>
     <div class="flex mb-3 text-xl">{{ informations.name }}</div>
     <div class="grid xl:grid-cols-2 xl:gap-x-5 gap-y-5">

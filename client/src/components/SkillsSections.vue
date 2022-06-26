@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="flex mb-4 text-3xl text-blue-900" id="skill">
-      <span class="border-b-4 border-blue-900 pb-2">Ski</span>ll
+    <div class="flex mb-4 text-3xl title" id="skill">
+      <span class="border-b-4 borders pb-2">Ski</span>ll
     </div>
     <div class="grid xl:grid-cols-2 xl:gap-x-9 gap-y-5 mr-10">
       <div v-for="(item, index) in informations.sections" :key="index">
@@ -15,7 +15,7 @@
         </div>
         <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
           <div
-            class="bg-blue-600 h-2.5 rounded-full"
+            class="skills h-2.5 rounded-full"
             :style="style(item.percet)"
           ></div>
         </div>
