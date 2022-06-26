@@ -16,7 +16,10 @@
     "@fortawesome/free-regular-svg-icons": "^6.0.0-beta3",
     "@fortawesome/free-solid-svg-icons": "^6.0.0-beta3",
     "@fortawesome/vue-fontawesome": "^2.0.6",
+    "chalk": "^5.0.1",
     "core-js": "^3.6.5",
+    "each-async": "^2.0.0",
+    "indent-string": "^5.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3"
   },
